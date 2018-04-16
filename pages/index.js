@@ -1,5 +1,6 @@
 // Components
 import Title from '../components/title';
+import Link from 'next/link';
 
 // Layouts
 import Page from '../layouts/page';
