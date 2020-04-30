@@ -1,4 +1,4 @@
-# panalbish.now.sh
+# https://bishalpantha.xyz/
 
 
 [![Build Status](https://travis-ci.org/panalbish/homepage.svg?branch=master)](https://travis-ci.org/panalbish/homepage)
