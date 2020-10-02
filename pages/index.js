@@ -1,10 +1,10 @@
 // Components
-import Title from '../components/title';
+import Title from "../components/title";
 
 // Layouts
-import Page from '../layouts/page';
+import Page from "../layouts/page";
 
-export default () => (
+const Index = () => (
   <Page>
     <Title />
 
@@ -73,12 +73,12 @@ export default () => (
           }
           section h1::before,
           section h1::before {
-            content: '„';
+            content: "„";
             top: 10px;
             right: -15px;
           }
           section h1::after {
-            content: '„';
+            content: "„";
             left: -15px;
             bottom: 0;
           }
@@ -114,3 +114,5 @@ export default () => (
     </style>
   </Page>
 );
+
+export default Index;
