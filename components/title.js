@@ -1,10 +1,12 @@
 // Components
-import Head from 'next/head';
+import Head from "next/head";
 
-const suffix = 'Bishal Pantha';
+const suffix = "Bishal Pantha";
 
-export default ({ value }) => (
+const Title = ({ value }) => (
   <Head>
     <title>{value ? `${value} - ${suffix}` : suffix}</title>
   </Head>
 );
+
+export default Title;
