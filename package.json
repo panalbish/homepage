@@ -29,6 +29,10 @@
     "prettier": "^1.12.0"
   },
   "lint-staged": {
-    "*.js": ["yarn test", "prettier --single-quoute --write", "git add"]
+    "*.js": [
+      "yarn test",
+      "prettier --single-quoute --write",
+      "git add"
+    ]
   }
 }
