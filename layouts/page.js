@@ -24,13 +24,9 @@ const viewSource = event => {
 const Page = ({ children }) => (
   <main onDoubleClick={viewSource}>
     <Head>
-      <link
-        rel="mask-icon"
-        href="http://bishalpantha.xyz/static/lightning.svg"
-        color="#000000"
-      />
-      <link rel="apple-touch-icon" href="/static/touch-icon.png" />
-      <link rel="icon" href="/static/touch-icon.png" type="image/png" />
+      <link rel="mask-icon" href="/lightning.svg" color="#000000" />
+      <link rel="apple-touch-icon" href="/touch-icon.png" />
+      <link rel="icon" href="/touch-icon.png" type="image/png" />
 
       <meta
         name="viewport"
