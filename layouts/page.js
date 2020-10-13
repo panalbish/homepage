@@ -32,10 +32,7 @@ const Page = ({ children }) => (
         name="viewport"
         content="width=device-width, initial-scale=1, user-scalable=no"
       />
-      <meta
-        name="description"
-        content="A teenagers view on web development and intuitive UI design."
-      />
+      <meta name="description" content="Bishal Pantha's Homepage" />
       <meta name="twitter:site" content="@panalbish" />
       <meta name="twitter:creator" content="@panalbish" />
     </Head>
