@@ -35,6 +35,7 @@ const Page = ({ children }) => (
       <meta name="description" content="Bishal Pantha's Homepage" />
       <meta name="twitter:site" content="@panalbish" />
       <meta name="twitter:creator" content="@panalbish" />
+      <script async src="https://cdn.splitbee.io/sb.js" />
     </Head>
     {children}
     <style jsx global>
